@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!--Page Loader Start-->
+    <div class="page-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!--Page Loader End-->
+
+<!--Background Circles Start-->
+<div class="bg-circles">
+    <div class="circle-1"></div>
+    <div class="circle-2"></div>
+    <div class="circle-3"></div>
+    <div class="circle-4"></div>
+</div>
+<!--Background Circles End-->    
+
+<!--Overlay Start-->
+<div class="overlay"></div>
+<!--Overlay End-->    
+
+<!--Main Start-->
+    <div class="main hidden">
+
+        <!--Header Start-->
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" class="nav-toggler">
+                        <span></span>
+                    </button>
+                    <nav class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li><a href="#home" class="nav-item link-item">Home</a></li>
+                                <li><a href="#about" class="nav-item link-item">About</a></li>
+                                <li><a href="#portfolio" class="nav-item link-item">Portfolio</a></li>
+                                <li><a href="#contact" class="nav-item link-item">Contact</a></li>
+                                <li><a href="#home" class="nav-item link-item">Blog</a></li>
+                                <!-- F:\PortfolioWebsite.github.io-main\bl\blog.html -->
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!--Header End-->
+
+        <!--Home Section Start-->
+        <section class="home-section align-items-center" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="home-text">
+                        <p>Hello, I'm</p>
+                        <h1>Richard</h1>
+                        <h2>Cloud & DevOps Enthusiast</h2>
+                        <a href="#about" class="btn link-item">About Me</a>
+                        <a href="#portfolio" class="btn link-item">Portfolio</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box">
+                            <img src="pro5.png" alt="profile-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Home Section End-->
+
+        <!--About Section Start-->
+        <section class="about-section sec-padding" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-img">
+                        <div class="img-box">
+                            <img src="profile-img.jpg" alt="about img">
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>Telecommunication Engineering student who is passionate about DevOps Engineer.
+                            Experienced using multiple cloud platforms such as Amazon Web Service, Microsoft Azure,
+                            and Google Cloud Platform to perform simple web deployments. Hands-on experience using 
+                            tools like Jenkins, Grafana-Prometheus, and EFK stack. Love to design, implement cloud 
+                            applications and migrate existing on-premises applications to the cloud. Excellent problem solving skills and ability to perform well in a team.</p>
+                        <h3>Skills</h3>
+                        <div class="skills">
+                            <div class="skill-item">Public Cloud</div>
+                            <div class="skill-item">Private cloud</div>
+                            <div class="skill-item">CI/CD</div>
+                            <div class="skill-item">Monitoring & Logging</div>
+                            <div class="skill-item">Programming</div>
+                            <div class="skill-item">Kubernetes Management</div>
+                            <div class="skill-item">Cluster Management</div>
+                        </div>
+                        <div class="about-tabs">
+                            <button type="button" class="tab-item active" data-target="#education">Education</button>
+                            <button type="button" class="tab-item" data-target="#experience">Experience</button>
+                        </div>
+
+                        <!--Education Start-->
+                        <div class="tab-content active" id="education">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2018 - 2022</span>
+                                    <h4>Bachelor Of Engineering  - <span>Telkom University</span></h4>
+                                    <p>[Telecommunication Engineering]</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2022</span>
+                                    <h4>Azure Fundamentals - <span>PT. MariBelajar Indonesia</span></h4>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2022</span>
+                                    <h4>DevOps Engineer - <span>Sekolah DevOps Cilsy</span></h4>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2021</span>
+                                    <h4>Cloud Computing - <span>Bangkit Academy</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Education End-->
+
+                        <!--Experience Start-->
+                        <div class="tab-content" id="experience">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2022 - Now</span>
+                                    <h4>Cloud Consultant - <span>Inovasi Informatika Indonesia</span></h4>
+                                    <p></p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2021 - 2022</span>
+                                    <h4>Image Processing Research Assistant - <span>Telkom University</span></h4>
+                                    <p>Doing research on fundus image with lecturers and research team using Google 
+                                        Collaboratory and TensorFlow library, Classifying eye diseases based on fundus images, namely cataracts, glaucoma, and diabetic 
+                                        retinopathy based on 399+ datasets, & Conducting research focused on cataracts using machine learning models: GoogLeNet, 
+                                        ResNet, MobileNet, and the proposed model.</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2021</span>
+                                    <h4>Development Engineer Intern - <span>Tokenomy Ltd.</span></h4>
+                                    <p>Compile system documentation of every feature in the Tokenomy web application to 
+                                        make it easier for new employees and other teams to understand the high-level 
+                                        architecture of Tokenomy, Installing Grafana and Prometheus on the Tokenomy Server makes it easier for the tech 
+                                        ops team to monitor infrastructure, web applications log, and web app performance, & providing 10+ information every day about the crypto market to assist the tech ops team 
+                                        in monitoring the movement of the crypto market.</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2020</span>
+                                    <h4>Access Service Operation Intern - <span>Telkom Indonesia</span></h4>
+                                    <p>Analyzing 10+ data customers every day from each internet number which includes all 
+                                        Indihome customers in Medan and modifying customer's package and optimization 
+                                        CPE/NTE performance,  maintaining network stability and the condition of the internet by checking internet specs 
+                                        as well as improving and repairing problematic systems for better condition, & manage more than 10+ user data in subscription registration through sales or websites on 
+                                        Indihome services and problems also executing and monitoring new installs of Indihome 
+                                        services through K-Pro web within reach of Telkom Medan.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Experience End-->
+                        <a href="CV.pdf" target="_blank" class="btn">Download CV</a>
+                        <a href="#contact" class="btn link-item">Contact Me</a>
+                    </div>
+                </div>    
+            </div>
+
+        </section>
+        <!--About Section End-->
+
+        <!--Portfolio Section Start-->
+        <section class="portfolio-section sec-padding" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Recent Work</h2>
+                    </div>
+                </div>
+                <!--add code== ==here-->
+            </div>
+        </section>
+        <!--Portfolio Section End-->
+
+        <!-- Contact Section Start-->
+        <section class="contact-section sec-padding" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-tilte">
+                        <h2>Contact Me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="input-group">
+                                    <input type="text" placeholder="Name" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Email" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Subject" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <textarea placeholder="Message" class="input-control" required></textarea>
+                                </div>
+                                <div class="submit-btn">
+                                    <button type="submit" class="btn">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <h3>Email</h3>
+                            <p>richardsimanjuntak@365.telkomuniversity.ac.id</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Phone No.</h3>
+                            <p>+6282166783948</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Follow Me</h3>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/richardsmnjtk/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/richardsmnjtk" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section End-->
+
+    </div>
+    <!--Main End-->
+
+    <!--Portfolio Item Details Popup Start-->
+    <div class="portfolio-popup">
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header">
+                    <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+                    <div class="pp-thumbnail">
+                        <img src="WeatherApp-img.png" alt="pp-thumbnail">
+                    </div>
+                    <h3></h3>
+                </div>
+                <div class="pp-body">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Portfolio Item Details Popup End-->
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
